@@ -42,7 +42,7 @@ LockIcon.TextTransparency = 1
 local Title = Instance.new("TextLabel", TopBar)
 Title.Position = UDim2.new(0,48,0,0)
 Title.Size = UDim2.new(1,-90,1,0)
-Title.Text = "how to join coded server"
+Title.Text = "USE CODED SERVER FOR THIS SCRIPT"
 Title.Font = Enum.Font.GothamBold
 Title.TextXAlignment = Enum.TextXAlignment.Left
 Title.TextColor3 = Color3.fromRGB(255,255,255)
@@ -67,7 +67,7 @@ Instance.new("UICorner", Close).CornerRadius = UDim.new(0,8)
 local SubText = Instance.new("TextLabel", Frame)
 SubText.Position = UDim2.new(0,20,0,65)
 SubText.Size = UDim2.new(1,-40,0,40)
-SubText.Text = "join coded server so the script could work"
+SubText.Text = "To get the coded server read below"
 SubText.Font = Enum.Font.Gotham
 SubText.TextWrapped = true
 SubText.TextColor3 = Color3.fromRGB(180,180,180)
@@ -89,10 +89,10 @@ StepHolder.AutomaticCanvasSize = Enum.AutomaticSize.None
 local Steps = Instance.new("TextLabel", StepHolder)
 Steps.Size = UDim2.new(1,0,0,220)
 Steps.Text =
-	"1. click copy link\n\n" ..
-	"2. enter the link in chrome\n\n" ..
-	"3. click play\n\n" ..
-	"4. enjoy the script"
+	"1. Click Get Coded Server\n\n" ..
+	"2. Put Coded Server into Chrome\n\n" ..
+	"3. Click play\n\n" ..
+	"4. Enjoy the script"
 Steps.Font = Enum.Font.Gotham
 Steps.TextWrapped = true
 Steps.TextYAlignment = Enum.TextYAlignment.Top
@@ -108,7 +108,7 @@ Button.Position = isMobile
 	and UDim2.new(0.5,0,1,-15)
 	or UDim2.new(0.5,0,1,-25)
 Button.AnchorPoint = Vector2.new(0.5,1)
-Button.Text = "Copy Link"
+Button.Text = "Get Coded Server"
 Button.Font = Enum.Font.GothamBold
 Button.TextScaled = true
 Button.TextColor3 = Color3.fromRGB(255,255,255)
